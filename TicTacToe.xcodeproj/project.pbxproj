@@ -14,6 +14,9 @@
 		A7F9230D2247080400B2BB93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F9230B2247080400B2BB93 /* LaunchScreen.storyboard */; };
 		A7F923182247080500B2BB93 /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F923172247080500B2BB93 /* TicTacToeTests.swift */; };
 		A7F923232247080500B2BB93 /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F923222247080500B2BB93 /* TicTacToeUITests.swift */; };
+		A7F923332247109900B2BB93 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F923302247109800B2BB93 /* board.png */; };
+		A7F923342247109900B2BB93 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F923312247109800B2BB93 /* cross.png */; };
+		A7F923352247109900B2BB93 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F923322247109800B2BB93 /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		A7F9231E2247080500B2BB93 /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F923222247080500B2BB93 /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		A7F923242247080500B2BB93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F923302247109800B2BB93 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		A7F923312247109800B2BB93 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		A7F923322247109800B2BB93 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 				A7F92304224707FE00B2BB93 /* ViewController.swift */,
 				A7F92306224707FE00B2BB93 /* Main.storyboard */,
 				A7F923092247080400B2BB93 /* Assets.xcassets */,
+				A7F923302247109800B2BB93 /* board.png */,
+				A7F923312247109800B2BB93 /* cross.png */,
+				A7F923322247109800B2BB93 /* nought.png */,
 				A7F9230B2247080400B2BB93 /* LaunchScreen.storyboard */,
 				A7F9230E2247080400B2BB93 /* Info.plist */,
 			);
@@ -229,6 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7F923342247109900B2BB93 /* cross.png in Resources */,
+				A7F923332247109900B2BB93 /* board.png in Resources */,
+				A7F923352247109900B2BB93 /* nought.png in Resources */,
 				A7F9230D2247080400B2BB93 /* LaunchScreen.storyboard in Resources */,
 				A7F9230A2247080400B2BB93 /* Assets.xcassets in Resources */,
 				A7F92308224707FE00B2BB93 /* Main.storyboard in Resources */,
@@ -433,12 +445,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6682JJSD3;
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.highfly.TicTacToe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricardohui.TicTacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,12 +463,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6682JJSD3;
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.highfly.TicTacToe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricardohui.TicTacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
